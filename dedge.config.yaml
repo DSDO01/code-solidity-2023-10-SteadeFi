@@ -1,8 +1,6 @@
 config:
-  framework: "hardhat" 
-  framework_version: "^2.17.3" 
-  node_version: "20" 
-  package_manager: "yarn"
+  framework: "foundry" 
+  package_manager: "forge"
 
 environment:
   "SNOWTRACE_API_KEY": "a3f1b2c4d5e6f7890a1b2c3d4e5f6789a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5"
@@ -12,5 +10,5 @@ environment:
 
 tasks:
   install-dependencies:
-    - yarn install
     - forge install
+    - yarn install
