@@ -1,0 +1,15 @@
+config:
+  framework: "hardhat" 
+  framework_version: "^2.17.3" 
+  node_version: "20" 
+  package_manager: "yarn"
+
+environment:
+  SNOWTRACE_API_KEY: "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+  ARBISCAN_API_KEY: "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+  PRIVATE_KEY_DEPLOYER: "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+  REPORT_GAS: false
+
+tasks:
+  install-dependencies:
+    - yarn install
