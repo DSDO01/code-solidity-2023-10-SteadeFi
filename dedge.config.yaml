@@ -11,4 +11,5 @@ environment:
 tasks:
   install-dependencies:
     - forge install
+    - npm install --global yarn
     - yarn install
