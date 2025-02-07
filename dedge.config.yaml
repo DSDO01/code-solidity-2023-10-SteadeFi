@@ -13,3 +13,4 @@ environment:
 tasks:
   install-dependencies:
     - yarn install
+    - forge install
